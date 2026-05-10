@@ -1,4 +1,4 @@
-N=5
+N=4
 def print_board(board):
     for row in board:
         print(row)
