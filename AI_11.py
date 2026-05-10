@@ -35,7 +35,7 @@ plt.plot(range(len(y_train),len(y)),y_test,label='Test')
 plt.legend()
 plt.show()
 
-# Create a logistic regression model
+# Create a linear regression model
 model = LinearRegression()
 
 # Fit the model
