@@ -1,0 +1,27 @@
+public class FibonacciClass {
+
+    // Method to display Fibonacci series
+    public static void fibonacci(Integer n) {
+
+        Integer a = 0;
+        Integer b = 1;
+
+        System.debug(a);
+        System.debug(b);
+
+        for(Integer i = 2; i < n; i++) {
+
+            Integer c = a + b;
+
+            System.debug(c);
+
+            a = b;
+            b = c;
+        }
+    }
+}
+
+#APEX
+Integer num = 10;
+
+FibonacciClass.fibonacciSeries(num);
